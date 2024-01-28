@@ -1,0 +1,213 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 300;
+}
+
+.header_image {
+  background-image: url("main.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* object-view-box: inset(20% 40% 60% 30%); */
+}
+
+.header_text {
+  width: 900px;
+  margin: 0px auto;
+  /* border: 2px solid red; */
+  color: white;
+  padding-top: 64px;
+  padding-left: 90px;
+
+  .lg_text {
+    font-weight: 900;
+    /* background-color: green; */
+    font-size: 40px;
+  }
+}
+
+.middle_section {
+  display: flex;
+  width: 100vw;
+  height: 270px;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle_text {
+  font-size: 40px;
+  font-weight: 500;
+  padding: 10px;
+
+  & span {
+    font-size: 60px;
+    font-weight: 700;
+  }
+}
+.botton_Section {
+  height: 500px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .left_card {
+    width: 200px;
+    height: 270px;
+    background-color: greenyellow;
+    box-shadow: 3px 3px 3px;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+
+  .left_img {
+    height: 100px;
+    width: 200px;
+    background-image: url(one.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+  }
+
+  .left_card_para1 {
+    margin: -5px 20px 10px 20px;
+    padding: 4px;
+    font-size: 10px;
+  }
+
+  .left_para_tit {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 4px;
+    font-size: 12px;
+  }
+
+  .Middle_card {
+    width: 200px;
+    height: 270px;
+    background-color: rgb(50, 93, 121);
+    box-shadow: 3px 3px 3px;
+    margin: 0px 20px 0px 20px;
+    border-radius: 5px;
+  }
+
+  .Middle_img {
+    height: 100px;
+    width: 200px;
+    background-image: url(two.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+  }
+
+  .Middle_card_para1 {
+    margin: 5px 20px 10px 20px;
+    padding: 4px;
+    font-size: 10px;
+  }
+
+  .mid_para_tit {
+    text-align: center;
+    margin-bottom: 4px;
+  }
+
+  .right_card {
+    width: 200px;
+    height: 270px;
+    background-color: rgb(186, 115, 148);
+    box-shadow: 3px 3px 3px;
+    margin: 0px 20px 0px 20px;
+    border-radius: 5px;
+  }
+
+  .right_img {
+    height: 100px;
+    width: 200px;
+    background-image: url(three_2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+  }
+
+  .right_card_para1 {
+    margin: -5px 20px 10px 20px;
+    padding: 4px;
+    font-size: 10px;
+  }
+
+  .right_para_tit {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 4px;
+    font-size: 12px;
+  }
+}
+
+.footer {
+  display: flex;
+  width: 100vw;
+  height: 250px;
+
+  .f_left {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(92, 160, 92);
+  }
+
+  .f_left_text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 900;
+    padding: 5px;
+  }
+
+  .f_left_para {
+    text-align: justify;
+    margin: 0px 50px 10px 50px;
+    font-size: 14.5px;
+    padding: 5px;
+  }
+
+  .f_right {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(160, 92, 92);
+  }
+
+  .f_right_text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 900;
+    padding: 5px;
+  }
+
+  .f_right_para {
+    text-align: justify;
+    margin: 0px 50px 10px 50px;
+    font-size: 14.5px;
+    padding: 5px;
+  }
+}
+.f_bottom {
+  display: flex;
+  height: 150px;
+  width: 100%;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+.f_bottom_txt {
+  color: white;
+  font-size: larger;
+  padding: 5px;
+}
